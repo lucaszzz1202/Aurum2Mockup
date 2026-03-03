@@ -16,7 +16,7 @@ PROJECT_NAME=$1
 # 执行创建命令
 npx @mcd/create-app@latest \
   --projectName "$PROJECT_NAME" \
-  --orgName "mf" \
+  --orgName "@mf" \
   --appType "boss-subapp" \
   --preferToRunIn "domestic" \
   --compatible "yes" \

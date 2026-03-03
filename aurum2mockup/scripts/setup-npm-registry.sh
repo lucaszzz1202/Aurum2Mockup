@@ -3,9 +3,9 @@
 # MCD NPM 私有仓库一键配置脚本
 
 REGISTRY_URL="https://nexus.mcd.com.cn/repository/npm-group/"
-USERNAME="${NPM_USERNAME:-your-username}"
-PASSWORD="${NPM_PASSWORD:-your-password}"
-EMAIL="${NPM_EMAIL:-your-email}"
+USERNAME="portal-user"
+PASSWORD="portal-user@mcd2020"
+EMAIL="portal-user@mcd.com.cn"
 
 echo "🔧 开始配置 MCD NPM 私有仓库..."
 echo ""
